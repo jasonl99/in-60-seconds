@@ -33,9 +33,13 @@ values.sort
 
 XBRL can have multiple values for the exact same thing.
 
+---
+
 For example, a note may reference a bank balance at the end
 of a period of "$1.2 million" 
 but in a statement it's shown as $1,235,600.
+
+---
 
 The data in the xbrl would look 
 like this (underscores work like commas in ruby)
@@ -43,6 +47,8 @@ like this (underscores work like commas in ruby)
 ```ruby
 [1_200_000, 1_235_600]
 ```
+
+---
 
 So maybe it will sort with the most precise
 first (1_235_600 is more precise if it wasn't obvs)
@@ -53,6 +59,8 @@ first (1_235_600 is more precise if it wasn't obvs)
 
  =>  [1200000, 1235600]
  ```
+
+ Crap.
 
 ---
 
