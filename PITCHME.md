@@ -18,9 +18,11 @@ values.sort
 We sort just about anything:
 
 ```ruby
-values = ["X", 15, 16, 15.25, "Fifteen"]
+values = ["Cat", "Dog", "Apple"]
 values.sort
-````
+
+=> ["Apple", "Cat", "Dog"]
+```
 
 
 ---
