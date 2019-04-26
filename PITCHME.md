@@ -27,10 +27,18 @@ values.sort
 
 ---
 
-## Sort By Precision 
+### XBRL, my Fuckle Friend
 
-XBRL, as it turns out, can have multiple values for _the same exact fact_.  For example, there might be a note
-that revenue was $1.2 million, but the income statement shows $1,232,600.  
+(that's a typo, I swear)
+
+For example, a note may reference "$1.2 million" 
+but in a statement it's shown as $1,235,600.
+
+That data would look like this
+
+```ruby
+[1_200_000, 1_235_600]
+```
 
 ---
 
