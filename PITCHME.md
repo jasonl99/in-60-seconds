@@ -1,4 +1,7 @@
-# Let's Get Started
+# How to sort values by precision
+
+XBRL, as it turns out, can have multiple values for _the same exact fact_.  For example, there might be a note
+that revenue was $1.2 million, but the income statement shows $1,232,600.  
 
 ---
 
