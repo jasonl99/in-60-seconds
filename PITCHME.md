@@ -1,7 +1,9 @@
 ---
 ## Basic Sorting
 
-Most languages have a simple method of sorting a list of data.
+Most languages have a 
+simple method of sorting 
+a list of data.
 
 In ruby, for exampe, 
 
@@ -9,6 +11,13 @@ In ruby, for exampe,
 values = [1,6,2,9,0]
 values.sort
 ```
+
+results in 
+
+```ruby
+[0,1,2,6,9]
+```
+
 
 ---
 
