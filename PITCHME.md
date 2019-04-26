@@ -1,3 +1,16 @@
+## Basic Sorting
+
+Most languages have a simple method of sorting a list of data.
+
+In ruby, for exampe, 
+
+```ruby
+values = [1,6,2,9,0]
+values.sort
+```
+
+
+
 ## Sort By Precision 
 
 XBRL, as it turns out, can have multiple values for _the same exact fact_.  For example, there might be a note
