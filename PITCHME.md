@@ -10,13 +10,17 @@ In ruby, for exampe,
 ```ruby
 values = [1,6,2,9,0]
 values.sort
+
+=> [0,1,2,6,9]
 ```
 
-results in 
+---
+We sort just about anything:
 
 ```ruby
-[0,1,2,6,9]
-```
+values = ["X", 15, 16, 15.25, "Fifteen"]
+values.sort
+````
 
 
 ---
