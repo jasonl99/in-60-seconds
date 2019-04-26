@@ -31,7 +31,10 @@ values.sort
 
 (that's a typo, I swear)
 
-For example, a note may reference "$1.2 million" 
+XBRL can have multiple values for the exact same thing.
+
+For example, a note may reference a bank balance at the end
+of a period of "$1.2 million" 
 but in a statement it's shown as $1,235,600.
 
 The data in the xbrl would look 
