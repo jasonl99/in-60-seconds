@@ -34,11 +34,22 @@ values.sort
 For example, a note may reference "$1.2 million" 
 but in a statement it's shown as $1,235,600.
 
-That data would look like this
+The data in the xbrl would look 
+like this (underscores work like commas in ruby)
 
 ```ruby
 [1_200_000, 1_235_600]
 ```
+
+So maybe it will sort with the most precise
+first (1_235_600 is more precise if it wasn't obvs)
+
+```
+ values = [1_200_000, 1_235_600]
+ values.sort
+
+ =>  [1200000, 1235600]
+ ```
 
 ---
 
