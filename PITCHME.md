@@ -15,7 +15,7 @@ values.sort
 ```
 
 ---
-We sort just about anything:
+We can sort just about anything:
 
 ```ruby
 values = ["Cat", "Dog", "Apple"]
